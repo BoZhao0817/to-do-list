@@ -1,0 +1,30 @@
+.app {
+  background-color: lightcoral;
+  /*vh相对于整个窗口 100表示全部占满*/
+  height: 100vh;
+  padding: 30px;
+  /*水平居中*/
+  display: flex;
+  justify-content: center;
+}
+
+.todo-list{
+  height: 30px;
+  width: 600px;
+}
+
+.todo{
+  background-color: lightslategray;
+  color: whitesmoke;
+  /*内部调整 上下 左右*/
+  padding: 10px 20px;
+  background-color: rgba(0,0,0,0.25);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+  /*垂直居中*/
+  display: flex;
+  align-items: center;
+  /*外边分开*/
+  margin-top: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
