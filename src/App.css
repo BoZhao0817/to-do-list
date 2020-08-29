@@ -23,8 +23,27 @@
   /*垂直居中*/
   display: flex;
   align-items: center;
+  justify-content: space-between;
   /*外边分开*/
   margin-top: 10px;
   border-radius: 2px;
   cursor: pointer;
+}
+
+.todo:hover .remove{
+  display: block;
+}
+
+.remove{
+  display: none;
+}
+
+.task {
+/*  垂直居中*/
+  display: flex;
+  align-items: center;
+}
+
+.todo i {
+  margin-right: 10px;
 }
